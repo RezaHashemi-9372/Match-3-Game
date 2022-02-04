@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9167750896116403798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9167750896116403796}
+  - component: {fileID: 9167750896116403797}
+  m_Layer: 0
+  m_Name: GameMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9167750896116403796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9167750896116403798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9167750896116403797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9167750896116403798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242fac2564dc6584bb8f535ff1eac51f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilePrefabe: {fileID: 3080687511879783642, guid: 1877265bb271cbb4e9e9ceee9668f110,
+    type: 3}
+  xSize: 8
+  ySize: 8
+  originPlace: {fileID: 4147205017233311689, guid: e45d383b38b107547abd57cc7ca5fc62,
+    type: 3}
+  sprites:
+  - {fileID: 21300000, guid: c0ad336f793e70c41b73996314fc3382, type: 3}
+  - {fileID: 21300000, guid: adf38046f319cdf44906a7b6cce3a0a1, type: 3}
+  - {fileID: 21300000, guid: 138f56978a56b324da362f4705fb15f7, type: 3}
+  - {fileID: 21300000, guid: da92d60a3a5c4ea4ca78371e1f03ac47, type: 3}
+  - {fileID: 21300000, guid: 58fcd6048c7fc0148825582f9c703cf2, type: 3}
+  - {fileID: 21300000, guid: 2589d23b87e8ebf4ea96477293610a96, type: 3}
+  - {fileID: 21300000, guid: d17d8a9eb94e0c5499a39650596ab1f4, type: 3}
+  - {fileID: 21300000, guid: 50b0dcd4c7af1664896c14735db37225, type: 3}
+  - {fileID: 21300000, guid: b1bf135b686ba3440ba47a982893823b, type: 3}
+  shiftDelay: 0.3
+  highImg: {fileID: 0}
+  shuffleTxt: {fileID: 0}
+  move: 0
+  delaytoShow: 0.5
+  gap: 1.5
